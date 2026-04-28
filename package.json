@@ -1,9 +1,25 @@
 {
   "name": "ecwve",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
+  "description": "ECWVE Content Workspace is a modular, browser-based learning platform designed for the development, management, and deployment of HTML-based educational modules. This workspace provides a Windows-first local development environment, supporting shared assets, reusable interaction templates, and scalable content organization. Ideal for instructional designers, educators, and developers, ECWVE streamlines the creation and maintenance of interactive learning experiences, ensuring consistency, reusability, and efficient collaboration across teams.",
+  "license": "MIT",
+  "author": "Ramjeet Vishwakarma",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramjeetvish/ecwve.git"
+  },
+  "keywords": [
+    "ecwve",
+    "learning",
+    "content",
+    "html",
+    "modules",
+    "education",
+    "browser",
+    "template",
+    "windows"
+  ],
+  "homepage": "https://github.com/ramjeetvish/ecwve#readme",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -14,6 +30,9 @@
     "startPath": "mod01/01s00l0000.html"
   },
   "dependencies": {
-    "cwrespro": "^0.1.5"
+    "cwrespro": "^0.1.6"
+  },
+  "devDependencies": {
+    "docx": "^9.6.1"
   }
 }

@@ -24,6 +24,8 @@ __pycache__/
 *.pyd
 venv/
 virtual_env/tests/
+Elsevier-Courseware-Virtual-Environment(ECWVE)-Guide.docx
+
 
 # Environment
 .env
