@@ -1,0 +1,49 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+virtual_env/tests/
+
+# Environment
+.env
+.env.*
+
+# Misc
+*.swp
+*.swo
+.idea/
+*.bak
+*.tmp
+
+# Build
+/dist/
+/build/
+
+# Other
+coverage/
+*.tgz
+
+# Ignore animation and engine build outputs
+animation/build/
+engines/build/
